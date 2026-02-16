@@ -1,2 +1,5 @@
-let bmi=68/ (1.7*1.7)
-console.log(bmi)  
+let heightCm =170
+let weightKg = 68
+let heightM = heightCm / 100
+
+console.log(weightKg / (heightM * heightM) )
